@@ -1,0 +1,263 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.mainContainer {
+  padding: 12vh 0vh 0vh 0vh;
+  background-image: url("../mobile-assets/bg1.webp");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: auto;
+  width: 100vw;
+}
+
+.titleApp {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /* padding-top: 100; */
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleAppText {
+  font-family: "Manrope";
+  font-weight: bold;
+  color: white;
+}
+
+.titleAppContainer1 {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.titleAppText1 {
+  font-family: "Manrope";
+  color: white;
+  margin-right: 1vh;
+  padding-top : 1vh;
+}
+
+.stepsCon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.step1 {
+  flex: 1;
+  display: flex;
+  margin-top: 2vh;
+  padding-top: 3vh;
+  flex-direction: row;
+}
+
+.step1Text {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 2vh;
+  padding-top: 2vh;
+}
+
+.step1Image {
+  flex: 4;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 2vh;
+}
+
+.step2Image {
+  flex: 4;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.step2Text {
+  flex: 8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-left: 2vh;
+  padding-top: 3vh;
+}
+
+.stepsText {
+  font-size: 0.75rem;
+  font-family: "Manrope";
+  font-weight: bold;
+  color: #fff;
+  margin-top: 1vh;
+  text-align: left;
+}
+
+.stepsText1 {
+  font-size: 0.75rem;
+  font-family: "Manrope";
+  color: #fff;
+  margin-top: 1.5vh;
+  text-align: left;
+}
+
+.restartDownloadCon {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 1vh;
+  width: auto;
+}
+
+.restartDownloadButtonMain {
+  border: #fff;
+  /* border-style: solid; */
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 0.4vh 0.5vh;
+  margin: 3vh 2vh 1vh 2vh;
+  width: 90%;
+}
+.restartDownloadButton {
+  border-radius: 15px;
+  background-color: #5265e4;
+  padding-top: 1vh;
+  width: 100%;
+}
+
+.restartDownloadButtonText {
+  font-family: "Manrope";
+  font-size: 0.875rem;
+  font-weight: bold;
+  margin: 1vh 0vh 2vh 0vh;
+  color: #fff;
+}
+
+.downloadDidNotWorkText {
+  font-size: 1.125rem;
+  font-family: "Manrope";
+  font-weight: bold;
+  color: #fff;
+  margin-top: 7vh;
+}
+
+.safesecureCon {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-bottom: 8vh;
+}
+
+.safeAndSecureText {
+  font-size: 0.875rem;
+  font-family: "Manrope";
+  color: #fff;
+  margin-top: 2vh;
+  margin-left: 3vh;
+}
+
+.secondMainContainer {
+  background-image: url("../assets/secondBg.png");
+  background-size: 100%;
+  height : auto;
+  width: 100vw;
+  padding-top: 1vh;
+  background-repeat: no-repeat;
+}
+
+.footerMob {
+  display: flex;
+  flex-direction: column;
+  margin-top: 7vh;
+}
+
+.footerMainConMob {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5vh;
+}
+
+.footerConChildMob {
+  display: flex;
+  flex-direction: column;
+  padding: 3vh 0vh 3vh 1vh;
+  margin-bottom: 3vh;
+}
+
+.getInTouchTextMob {
+  font-size: 1.125rem;
+  font-family: "Manrope";
+  font-weight: bold;
+  color: #fff;
+}
+
+.footerConChildMainText1Mob {
+  font-size: 1rem;
+  font-family: "Manrope";
+  color: #fff;
+  margin-top: 0.5vh;
+}
+
+.callConMob,
+.emailConMob,
+.locationConMob {
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 0vh 0vh 0vh;
+  width: fit-content;
+}
+
+.footerIconMob {
+  margin: 1vh 2vh 1vh 0vh;
+}
+
+.downloadButtonMain2 {
+  flex : 1;
+  display: flex;
+  border: #fff;
+  /* border-style: solid; */
+  border-color: #fff;
+  border-width: 1px;
+  border-radius: 15px;
+  padding: 0.4vh 0.5vh;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  margin: 0vh 2vh 5vh 2vh;
+}
+.downloadButton2 {
+  border-radius: 15px;
+  background-color: #5265e4;
+  padding: 1vh;
+  width: 100%;
+}
+
+.downloadButtonText2 {
+  font-family: "Manrope";
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 1vh 0vh 1vh 0vh;
+  color: #fff;
+}
+
+.ourFeatureCon,
+.footer {
+  display: none;
+}
+
+/* .restartDownloadCon {
+  display: none;
+} */

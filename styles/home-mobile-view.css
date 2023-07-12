@@ -1,0 +1,726 @@
+@media screen and (max-width: 425px) {
+  .mainContainer {
+    padding: 10vh 0vh 0vh 0vh;
+    background-image: url("../mobile-assets/bg1.webp");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: auto;
+  }
+
+  .navbar{
+    display: none;
+  }
+
+  html {
+    font-size: 16px;
+  }
+  .appIcon {
+    width: 80%;
+  }
+  .titleAppText {
+    font-size: 22px;
+    text-align: center;
+  }
+  .titleAppText1 {
+    font-size: 18px;
+    margin-top: 1vh;
+    text-align: center;
+  }
+  .downloadViaSmsText1{
+    color : white;
+    font-family : 'Manrope';
+    font-size : 20;
+    display: flex;
+    align-self: flex-start;
+    font-weight: bold;
+    margin: 2vh 1vh 5vh 1vh;
+  }
+  .titleContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .tsliderMain {
+    height: 0;
+    display: none;
+  }
+  .tslider--inner {
+    height: 0;
+    display: none;
+  }
+  .downloadViaSmsContainer1 {
+    display: none;
+  }
+  .mainContainer2 {
+    margin-top: 0vh;
+    flex-direction: column;
+  }
+  .availableOnAndroidTextCon {
+    margin-bottom: 20px;
+    padding-top: 0px;
+    font-size: 14px;
+  }
+  .availableOnAndroidText {
+    font-size: 14px;
+  }
+  .carouselImage {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .carouselImage1 {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .carouselApp {
+    padding-top: 50px;
+  }
+  .logo{
+    padding-top: 10px;
+  }
+  .header{
+    height:70px !important;
+  }
+  .downloadViaSmsContainer2 {
+    display: flex;
+  }
+  .secondMainContainer {
+    /* display:  none; */
+    margin-top: 0vh;
+    padding-top: 5vh;
+    height: auto;
+  }
+  .downloadMsg {
+    margin: 1vh;
+  }
+  .downloadMsgText {
+    font-size: 22px;
+  }
+  .downloadMsgText1 {
+    font-size: 16px;
+  }
+  .features {
+    display: none;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-35vh * 4));
+    }
+  }
+
+  .slider {
+    flex: 1;
+    overflow: hidden;
+  }
+
+  .slider::before,
+  .slider::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+  }
+
+  .slider::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  .slider::before {
+    left: 0;
+    top: 0;
+  }
+
+  .slide-track {
+    animation: scroll 8s linear infinite;
+    display: flex;
+    width: 100%;
+  }
+
+  .featuresMob {
+    flex: 1;
+    display: flex;
+    padding: 0 0vh 0 0vh;
+    margin: 1vh 0vh 5vh 0vh;
+  }
+
+  .featureConMob {
+    flex: 4;
+    display: flex;
+    padding: 0vh 0vh 0 0;
+  }
+
+  .featureimgMob {
+    width: 40%;
+    height: auto;
+  }
+
+  .featureMob {
+    display: flex;
+    width: 30vh;
+    height: 20vh;
+    padding: 5vh 0vh 8vh 0vh;
+    margin : 0vh 3vh 0vh 0vh;
+    background-color: #5139a0;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .featuretextMob {
+    font-size: 12;
+    font-family: "Manrope";
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+  }
+
+  .downloadAppButton {
+    padding: 2vh 3vh;
+  }
+
+  .downloadbtnCon {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .downloadbtnText {
+    font-size: 20px;
+  }
+
+  .renowedGamesTitle {
+    margin-top: 0px;
+    padding: 1vh 0vh;
+    margin-bottom: 0vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .renownedGamesCon {
+    justify-content: left;
+    padding-top: 0px;
+    padding-bottom: calc(2 * var(--vh, 1vh));
+  }
+
+  .renowedGamesTitleText {
+    font-size: 22px;
+  }
+
+  .guysPlaying {
+    display: none;
+  }
+
+  .gamesListIcon {
+    width: 50;
+  }
+  .game {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    width: 100%;
+  }
+  .gamesIntro {
+    margin: 0 5vh 0 5vh;
+  }
+
+  .gameText {
+    font-size: 24;
+  }
+  .gamesList {
+    margin-bottom: 2vh;
+    margin-left: 5px;
+  }
+  .game {
+    flex: 1;
+    margin-top: 1vh;
+    margin-bottom: 4vh;
+  }
+  .learnMore {
+    flex: 1;
+    margin: 5vh 5vh 10vh 5vh;
+  }
+  .learnMoreText {
+    font-size: 18;
+  }
+  .rightArrowIconImage {
+    width: 16;
+    height: 16;
+  }
+  .achievementTitleText {
+    font-size: 22px;
+    margin-bottom : 2vh;
+  }
+
+  .achievementsListCon{
+    display: none;
+  }
+
+@keyframes scrollAchievementsMob {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-120vh * 3))}
+}
+
+.sliderAchievementsMob {
+  display: flex;
+  position: relative;
+}
+	
+.sliderAchievementsMob::before,
+.sliderAchievementsMob::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+}
+
+.sliderAchievementsMob::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+}
+
+.sliderAchievementsMob::before {
+    left: 0;
+    top: 0;
+}
+.achievements{
+  overflow: hidden;
+  margin-top: 0px;
+}
+.slide-trackAchievementsMob {
+    animation: scrollAchievementsMob 30s linear infinite;
+    display: flex;
+    width: 100%;
+}
+
+.achievementsMob {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.achiementConMob {
+  display: flex;
+  margin: 1vh 5vh 0vh 0vh;
+}
+
+.achievementMob {
+  flex: 1;
+  width: 40vh;
+  background-color: #5139a0;
+  border-radius: 15px;
+  padding: 2vh 1vh 2vh 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.achievementTextsMob {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 3vh;
+}
+
+.achievementTextMob {
+  display: flex;
+  font-size: 30;
+  color: #fff;
+  font-family: "Manrope";
+  font-weight: bold;
+}
+
+.achievementText1Mob {
+  display: flex;
+  font-size: 24;
+  color: #fff;
+  font-family: "Manrope";
+}
+
+
+  .ytVideoCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+  }
+
+  .ytVideo {
+    /* background-color: #e7e0fe; */
+    border-radius: 15px;
+    width: 450;
+    height: 250;
+  }
+  .footer-bottom{
+    margin-bottom: 30px;
+  }
+  .whyChooseUsCon {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7vh;
+  }
+
+  .whyChooseUs {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #e7e0fe;
+    width: 100%;
+    border-radius: 15px;
+    margin: 15vh;
+    padding: 1vh 0vh 1vh 0vh;
+    margin: 1vh 2vh;
+  }
+
+  .whyChooseUsTitle {
+  }
+
+  .whyMlympixText {
+    font-size: 16px;
+    margin-top: 3vh;
+  }
+
+  .whyChooseUsTitleText {
+    font-size: 26px;
+    margin: 1vh 0vh 1vh 0vh;
+  }
+
+  .reasons {
+    flex-direction: column;
+    margin: 0vh 1vh;
+  }
+
+  .reason {
+    flex: 1;
+    display: flex;
+    background-color: #5139a0;
+    border-radius: 20px;
+    margin: 2vh 0vh;
+    padding: 6vh 3vh;
+  }
+
+  .reasonImg {
+    /* margin: 1vh; */
+  }
+
+  .reasonTexts {
+    margin : 0px;
+  }
+
+  .reasonTitle {
+    font-size: 22px;
+    color: #fff;
+    font-weight: bolder;
+    font-family: "Manrope";
+    /* margin-bottom: 2vh; */
+  }
+
+  .reasonDesc {
+    font-size: 14;
+    color: #fff;
+    font-weight: 300;
+    font-family: "Manrope";
+  }
+
+  .reasonImgIcon {
+    width: 40;
+  }
+
+  .withdrawalChannels {
+    flex: 1;
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .withdrawalChannelsTitle {
+    margin: 7vh 0vh 2vh 0vh;
+  }
+
+  .withdrawalChannelsCon {
+    margin-top: 0vh;
+  }
+
+  .bankImg {
+    margin: 2vh 5vh 0vh 5vh;
+  }
+
+  .upiImg {
+    margin: 2vh 5vh 0vh 5vh;
+  }
+  .bankImgg {
+    height: 50px;
+  }
+
+  .upiImgg {
+    height: 50px;
+  }
+
+  .withdrawalChannelsTitleText {
+    font-size: 22px;
+  }
+
+  .ourFeatureConMob {
+    flex: 1;
+    display: flex;
+    width: 100%;
+    margin-top: 5vh;
+  }
+
+  .ourFeatureMob {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    background-color: #e7e0fe;
+    margin: 2vh 2vh 2vh 2vh;
+    border-radius: 15px;
+  }
+
+  .appImageConMob {
+    flex: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh 2vh 4vh 2vh;
+  }
+
+  .appImageMob {
+    width: 50%;
+  }
+
+  .featureConMob {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 1vh 2vh 1vh;
+    justify-content: left;
+    align-items: left;
+  }
+
+  .ourFeatureTextMob {
+    font-size: 20px;
+    font-family: "Manrope";
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1vh;
+    color: #5139a0;
+  }
+
+  .playGameTextMob {
+    font-size: 16px;
+    font-family: "Manrope";
+    font-weight: bold;
+    margin-bottom: 1vh;
+    color:black;
+  }
+
+  .playGameDescMob {
+    font-size: 12px;
+    font-family: "Manrope";
+    font-weight: 500;
+    margin: 1vh 0vh 1vh 0vh;
+    color:black;
+  }
+
+  .ourHappyMlympixersCon {
+    width: 100%;
+    display: flex;
+    padding-top: 3vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+
+  .ourHappyMlympixersTitleCon {
+    /* padding: 1vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-bottom: 6vh; */
+  }
+
+  .ourHappyMlympixersTitleText {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: "Manrope";
+    color: #fff;
+  }
+
+  .reviewsCon {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+
+  .reviews {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-top: 20px !important;
+  }
+
+  .reviewItemCon {
+    padding-left: 5vh;
+  }
+
+  .reviewItem {
+    width: 50vh;
+    padding: 5vh 5vh 3vh 5vh;
+    border-radius: 12px;
+    background-color: #5139a0;
+  }
+
+  .reviewTitle {
+    font-size: 16;
+    font-weight: bolder;
+    font-family: "Manrope";
+    margin: 1vh 0vh;
+    color: #fff;
+  }
+
+  .reviewDesc {
+    font-size: 11;
+    font-weight: 300;
+    font-family: "Manrope";
+    margin: 3vh 0vh 2vh 0vh;
+    color: #fff;
+  }
+
+  .reviewerName {
+    font-size: 10;
+    font-weight: bolder;
+    font-family: "Manrope";
+    color: #fff;
+    margin: 1vh 0vh 1vh 0vh;
+  }
+
+  .reviewerDetails {
+    font-size: 10;
+    font-weight: 200;
+    font-family: "Manrope";
+    color: #fff;
+  }
+
+  @keyframes happyMlympixersCarousel {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-600vh * 2));
+    }
+  }
+
+  .reviewsCon::before,
+  .reviewsCon::after {
+    content: "";
+    position: absolute;
+    z-index: 2;
+  }
+
+  .reviewsCon::after {
+    right: 0;
+    top: 0;
+    transform: rotateZ(180deg);
+  }
+
+  .reviewsCon::before {
+    left: 0;
+    top: 0;
+  }
+
+  .reviews {
+    animation: happyMlympixersCarousel 90s linear infinite;
+  }
+
+  .footerMob {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 15vh;
+    /* background-color: #1B1C31; */
+  }
+
+  .footerMainConMob {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5vh;
+  }
+
+  .footerConChildMob {
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 0vh 2vh 3vh;
+    margin-bottom: 3vh;
+  }
+
+  .getInTouchTextMob {
+    font-size: 22px;
+    font-family: "Manrope";
+    font-weight: bold;
+    color: #fff;
+  }
+
+  .footerConChildMainText1Mob {
+    font-size: 16;
+    font-family: "Manrope";
+    color: #fff;
+    margin-top: 0.5vh;
+  }
+
+  .callConMob,
+  .emailConMob,
+  .locationConMob {
+    display: flex;
+    flex-direction: row;
+    margin: 2vh 0vh 0vh 0vh;
+  }
+
+  .footerIconMob {
+    margin: 1vh 2vh 1vh 0vh;
+  }
+
+  .downloadButtonMain2 {
+    border: #fff;
+    /* border-style: solid; */
+    border-color: #fff;
+    border-width: 1px;
+    border-radius: 15px;
+    padding: 0.4vh 0.5vh;
+    margin: 0vh 2vh 5vh 2vh;
+  }
+  .downloadButton2 {
+    border-radius: 15px;
+    background-color: #5265e4;
+    padding: 1vh;
+    width: 100%;
+  }
+
+  .downloadButtonText2 {
+    font-family: "Manrope";
+    font-size: 16;
+    font-weight: bold;
+    margin: 1vh 0vh 1vh 0vh;
+    color: #fff;
+  }
+
+  .ourFeatureCon,
+  .footer {
+    display: none;
+  }
+}
